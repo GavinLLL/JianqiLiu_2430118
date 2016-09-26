@@ -25,27 +25,78 @@ int main(int argc, char** argv) {
    cout<<"X Y !X !Y X&&Y X||Y X^Y X^Y^Y X^Y^X !(X&&Y) !X||!Y !(X||Y) !X&&!Y "<<endl; 
   
    //input values first row of the truth table
-   x=true;
-   y=true;
+   x = true;
+   y = true;
     
-    //Display the fist row fo the truth table
-     cout<<(x?'T':'F')<<"";
-     cout<<(Y?'T':'F')<<"  ";
-     cout<<(!x?'T':'F')<<" ";
-     cout<<(!Y?'T':'F')<<"   ";
-     cout<<(x&&Y?'T':'F')<<" ";
-     cout<<endl;
+    //Display the fist row for the truth table
+     cout << (x?'T':'F') << " ";
+    cout << (y?'T':'F') << " ";
+    cout << (!x?'T':'F') << "  ";
+    cout << (!y?'T':'F') << "   ";
+    cout << (x&&y?'T':'F') << "    ";
+    cout << (x||y?'T':'F') << "    ";
+    cout << (x^y?'T':'F') << "    ";
+    cout << (x^y^y?'T':'F') << "     ";
+    cout << (x^y^x?'T':'F') << "      ";
+    cout << (!(x&&y)?'T':'F') << "      ";
+    cout << (!x||!y?'T':'F') << "       ";
+    cout << (!(x||y)?'T':'F') << "      ";
+    cout << (!x&&!y?'T':'F') << endl;
+    
      //Input values for second row of the the truth table
      y=false;
      
      //display the second row of the truth table
-     cout<<(x?'T':'F')<<"";
-     cout<<(Y?'T':'F')<<"";
-     cout<<(!x?'T':'F')<<"";
-     cout<<(!Y?'T':'F')<<"";
-     cout<<(x&&Y?'T':'F')<<"";
-     cout<<endl;
-     
+    cout << (x?'T':'F') << " ";
+    cout << (y?'T':'F') << " ";
+    cout << (!x?'T':'F') << "  ";
+    cout << (!y?'T':'F') << "   ";
+    cout << (x&&y?'T':'F') << "    ";
+    cout << (x||y?'T':'F') << "    ";
+    cout << (x^y?'T':'F') << "    ";
+    cout << (x^y^y?'T':'F') << "     ";
+    cout << (x^y^x?'T':'F') << "      ";
+    cout << (!(x&&y)?'T':'F') << "      ";
+    cout << (!x||!y?'T':'F') << "       ";
+    cout << (!(x||y)?'T':'F') << "      ";
+    cout << (!x&&!y?'T':'F') << endl;
+    
+    // Input the values for the third row
+    x = false;
+    y = true;
+    
+    // Display third row of the table
+    cout << (x?'T':'F') << " ";
+    cout << (y?'T':'F') << " ";
+    cout << (!x?'T':'F') << "  ";
+    cout << (!y?'T':'F') << "   ";
+    cout << (x&&y?'T':'F') << "    ";
+    cout << (x||y?'T':'F') << "    ";
+    cout << (x^y?'T':'F') << "    ";
+    cout << (x^y^y?'T':'F') << "     ";
+    cout << (x^y^x?'T':'F') << "      ";
+    cout << (!(x&&y)?'T':'F') << "      ";
+    cout << (!x||!y?'T':'F') << "       ";
+    cout << (!(x||y)?'T':'F') << "      ";
+    cout << (!x&&!y?'T':'F') << endl;
+    
+    // Input the values for the fourth
+    y = false;
+    
+    // Display fourth row of the table
+    cout << (x?'T':'F') << " ";
+    cout << (y?'T':'F') << " ";
+    cout << (!x?'T':'F') << "  ";
+    cout << (!y?'T':'F') << "   ";
+    cout << (x&&y?'T':'F') << "    ";
+    cout << (x||y?'T':'F') << "    ";
+    cout << (x^y?'T':'F') << "    ";
+    cout << (x^y^y?'T':'F') << "     ";
+    cout << (x^y^x?'T':'F') << "      ";
+    cout << (!(x&&y)?'T':'F') << "      ";
+    cout << (!x||!y?'T':'F') << "       ";
+    cout << (!(x||y)?'T':'F') << "      ";
+    cout << (!x&&!y?'T':'F') << endl;
     //Exit program
     return 0;
 }
