@@ -28,7 +28,7 @@ int main(int argc, char** argv) {
     cin>>C;
     //Process values-> Map inputs to Outputs
     //The formula to convert Celsius to Fahrenheit
-    F=9/5*C+32;                       
+    F=9/5.0f*C+32;                       
     //Display output
     cout<<fixed<<setprecision(1)<<endl;
     cout<<"Fahrenheit temperatures is "<<F<<endl;
