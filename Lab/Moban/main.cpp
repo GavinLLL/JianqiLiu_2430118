@@ -2,8 +2,7 @@
  * File:   main.cpp
  * Author: Jianqi Liu
  * Purpose:
- * Created on 
- * September 21, 2016, 9:58 AM
+ * Created on September 27, 2016, 4:35 PM
  */
 
 
@@ -21,7 +20,7 @@ using namespace std; //Name-space used in system Library
 int main(int argc, char** argv) {
     //Declaration of variables
     
-   //Process values-> Map inputs to Outputs
+    //Process values-> Map inputs to Outputs
     
     //Display output
     
