@@ -2,12 +2,13 @@
  * File:   main.cpp
  * Author: Jianqi Liu
  * Created on September 27, 2016, 4:35 PM
- * Purpose:
+ * Purpose: Minimum/Maximum compare numbers
  */
 
 
 //System Libraries
 #include <iostream>  //Input/out objects
+#include <iomanip>   //providing 
 using namespace std; //Name-space used in system Library 
 
 //User Libraries
