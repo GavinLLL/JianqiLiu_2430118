@@ -1,8 +1,8 @@
 /* 
  * File:   main.cpp
  * Author: Jianqi Liu
- * Purpose:
  * Created on September 27, 2016, 4:35 PM
+ * Purpose:
  */
 
 
